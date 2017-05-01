@@ -101,4 +101,9 @@ tar -zxvf mysql-connector-java-5.1.36.tar.gz
 cp mysql-connector-java-5.1.36/mysql-connector-java-5.1.36-bin.jar .
 
 
+#
+#ADD PIG HIVE AND SQOOP BIN DIR TO SYSTEM PATH
+#
+echo "export PATH=$PATH:/bigdata/pig/bin:/bigdata/hive/bin:/bigdata/sqoop/bin" >> ~/.bashrc
+. ~/.bashrc
 
