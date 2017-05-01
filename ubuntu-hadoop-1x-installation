@@ -32,7 +32,7 @@ sudo service ssh restart
 #CREATE A DEDICATED FOLDER FOR HADOOP ECOSYSTEM
 #
 sudo mkdir /bigdata
-
+sudo chown -R <username>:<username> /bigdata
 
 #
 #GENERATE SSH KEYS AND AUTHENTICATE THEM
